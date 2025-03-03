@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const BgLines = () => {
   return (
-    <div className="absolute top-0 w-full overflow-hidden flex justify-center">
+    <div className="absolute top-0 w-full overflow-hidden flex justify-center z-10">
       <Image
         width={1960}
         height={914}

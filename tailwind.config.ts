@@ -53,6 +53,9 @@ export default {
         },
         background: "var(--bg-gradient)",
       },
+      backgroundImage: {
+        "custom-gradient": "var( --bg-gradient)",
+      },
     },
   },
   plugins: [],

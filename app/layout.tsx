@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import { BgGradient } from "@/components/bg-gradient";
 import { Navbar } from "@/components/sections/navbar";
 import { BgLines } from "@/components/bg-lines";
+import { BgGradient } from "@/components/bg-gradient";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -27,9 +27,7 @@ export default function RootLayout({
         <Navbar />
 
         <BgLines />
-
         <BgGradient />
-
         {children}
       </body>
     </html>
