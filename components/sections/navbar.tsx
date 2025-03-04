@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PrimaryButton } from "../primary-button";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import { AlignLeft } from "lucide-react";
 
 export const Navbar = () => {
   const pathname = usePathname();
@@ -19,7 +20,7 @@ export const Navbar = () => {
             alt="Logo GTBRASIL"
           />
         </div>
-        <div className="flex items-center justify-center gap-6 px-8 py-4 text-base font-medium text-silverTree-50 bg-shark-400/60 backdrop-blur-lg rounded-2xl">
+        <div className="max-lg:hidden items-center justify-center gap-6 px-8 py-4 text-base font-medium text-silverTree-50 bg-shark-400/60 backdrop-blur-lg rounded-2xl lg:flex">
           <Link
             href={"/"}
             className={`${pathname === "/" && "text-catarineBlue-400"}`}
@@ -33,7 +34,8 @@ export const Navbar = () => {
             Serviços
           </Link>
         </div>
-        <PrimaryButton>Fale Conosco</PrimaryButton>
+        <PrimaryButton className="max-lg:hidden">Fale Conosco</PrimaryButton>
+        <AlignLeft className="text-catarineBlue-400 h-16 w-16 lg:hidden" />
       </div>
     </nav>
   );

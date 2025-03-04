@@ -19,7 +19,8 @@ export const Hero = () => {
     <section className="w-full pt-60 my-0">
       <div className="mx-auto my-0">
         <h1 className="font-semibold text-4xl xl:text-[2.8rem] text-silverTree-50">
-          Prezamos pelo seu trabalho
+          Prezamos pelo seu{" "}
+          <span className="text-catarineBlue-400">resultado</span>
         </h1>
 
         <div className="flex flex-col gap-4 text-sm xl:text-base font-medium text-gray-200 mt-10 mb-20 max-w-xl xl:max-w-2xl">
