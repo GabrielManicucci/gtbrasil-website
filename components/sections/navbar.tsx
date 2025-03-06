@@ -35,7 +35,7 @@ export const Navbar = () => {
           </Link>
         </div>
         <PrimaryButton className="max-lg:hidden">Fale Conosco</PrimaryButton>
-        <AlignLeft className="text-catarineBlue-400 h-16 w-16 lg:hidden" />
+        <AlignLeft className="text-catarineBlue-400 h-14 w-14 lg:hidden" />
       </div>
     </nav>
   );

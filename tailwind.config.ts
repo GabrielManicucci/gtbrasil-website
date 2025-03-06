@@ -39,8 +39,8 @@ export default {
         },
         shark: {
           50: "#F5F6F6",
-          100: "#E6E7E7",
-          200: "#CFD2D1",
+          100: "#DEE3E1",
+          200: "#D9DEDC",
           300: "#AEB2B0",
           400: "#858B88",
           500: "#6A706D",
@@ -55,6 +55,14 @@ export default {
       },
       backgroundImage: {
         "custom-gradient": "var( --bg-gradient)",
+      },
+      dropShadow: {
+        goalcard: [
+          "0px 72px 92px rgba(0, 0, 0, 0.10)",
+          "0px 21.706px 27.735px rgba(0, 0, 0, 0.07)",
+          "0px 9.016px 11.52px rgba(0, 0, 0, 0.05)",
+          " 0px 3.261px 4.166px rgba(0, 0, 0, 0.03)",
+        ],
       },
     },
   },

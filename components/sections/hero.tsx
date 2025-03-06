@@ -16,14 +16,14 @@ import { PrimaryButton } from "../primary-button";
 
 export const Hero = () => {
   return (
-    <section className="w-full pt-60 my-0">
+    <section className="w-full pt-48 md:pt-60 my-0">
       <div className="mx-auto my-0">
         <h1 className="font-semibold text-4xl xl:text-[2.8rem] text-silverTree-50">
           Prezamos pelo seu{" "}
           <span className="text-catarineBlue-400">resultado</span>
         </h1>
 
-        <div className="flex flex-col gap-4 text-sm xl:text-base font-medium text-gray-200 mt-10 mb-20 max-w-xl xl:max-w-2xl">
+        <div className="flex flex-col gap-4 text-sm xl:text-base font-medium text-gray-200 mt-10 mb-16 md:pt-20 max-w-xl xl:max-w-2xl">
           {companyDifferentials.map((diferential, index) => (
             <div key={index} className="flex items-center gap-4">
               <Image
