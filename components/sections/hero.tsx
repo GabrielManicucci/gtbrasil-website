@@ -23,7 +23,7 @@ export const Hero = () => {
           <span className="text-catarineBlue-400">resultado</span>
         </h1>
 
-        <div className="flex flex-col gap-4 text-sm xl:text-base font-medium text-gray-200 mt-10 mb-16 md:pt-20 max-w-xl xl:max-w-2xl">
+        <div className="flex flex-col gap-4 md:gap-5 text-sm xl:text-base font-medium text-gray-200 mb-16  max-w-xl mt-10 md:mt-12 md:mb-20 xl:max-w-2xl">
           {companyDifferentials.map((diferential, index) => (
             <div key={index} className="flex items-center gap-4">
               <Image
