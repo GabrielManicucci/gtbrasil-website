@@ -64,6 +64,9 @@ export default {
           " 0px 3.261px 4.166px rgba(0, 0, 0, 0.03)",
         ],
       },
+      screens: {
+        lg: "1040px",
+      },
     },
   },
   plugins: [],
