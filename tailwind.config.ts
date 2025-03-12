@@ -60,13 +60,37 @@ export default {
         goalcard: [
           "0px 72px 92px rgba(0, 0, 0, 0.10)",
           "0px 21.706px 27.735px rgba(0, 0, 0, 0.07)",
-          "0px 9.016px 11.52px rgba(0, 0, 0, 0.05)",
-          " 0px 3.261px 4.166px rgba(0, 0, 0, 0.03)",
+          "0px 9.016px 11.52px rgba(0, 0, 0, 0.07)",
+          " 0px 3.261px 4.166px rgba(0, 0, 0, 0.10)",
         ],
       },
-      screens: {
-        lg: "1040px",
-      },
+      // screens: {
+      //   sm: "448",
+      //   md: "552",
+      //   dy: "755",
+      //   yl: "924",
+      //   lg: "1040px",
+      // },
+    },
+    screens: {
+      sm: "448px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "552px",
+      // => @media (min-width: 768px) { ... }
+
+      dy: "755px",
+
+      yl: "924px",
+
+      lg: "1040px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1280px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1536px",
+      // => @media (min-width: 1536px) { ... }
     },
   },
   plugins: [],
