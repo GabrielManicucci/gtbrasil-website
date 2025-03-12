@@ -20,7 +20,7 @@ export const Navbar = () => {
             alt="Logo GTBRASIL"
           />
         </div>
-        <div className="max-lg:hidden items-center justify-center gap-6 px-8 py-4 text-base font-medium text-silverTree-50 bg-shark-400/60 backdrop-blur-lg rounded-2xl lg:flex">
+        <div className="max-lg:hidden items-center justify-center gap-6 px-8 py-4 text-base font-medium text-silverTree-50 bg-shark-400/60 backdrop-blur-ps rounded-2xl lg:flex">
           <Link
             href={"/"}
             className={`${pathname === "/" && "text-catarineBlue-400"}`}

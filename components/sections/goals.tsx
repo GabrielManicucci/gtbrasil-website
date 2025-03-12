@@ -1,11 +1,12 @@
 "use client";
-import { Calculator, MoveDown } from "lucide-react";
+import { Calculator, Handshake, MoveDown, NotebookPen } from "lucide-react";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { JSX, useEffect, useState } from "react";
 
 type goalType = {
   title: string;
   description: string;
+  icon: JSX.Element;
 };
 
 const goals: goalType[] = [
@@ -13,16 +14,19 @@ const goals: goalType[] = [
     title: "Serviços contábeis",
     description:
       "Lorem ipsum dolor sit amet consectetur. Adipiscing a at enim enimaliquet diam.. Sapien diam ultricies ac semper ut faucibusultrices quis.. Arcu vel donec quisque nunc sit vitae estblandit.. Massa quam arcu ut leo nunc tellus gravida..",
+    icon: <Calculator className="h-6 w-6 lg:h-7 lg:w-7 text-gray-900" />,
   },
   {
     title: "Consultoria",
     description:
       "Lorem ipsum dolor sit amet consectetur. Adipiscing a at enim enimaliquet diam.. Sapien diam ultricies ac semper ut faucibusultrices quis.. Arcu vel donec quisque nunc sit vitae estblandit.. Massa quam arcu ut leo nunc tellus gravida..",
+    icon: <Handshake className="h-6 w-6 lg:h-7 lg:w-7 text-gray-900" />,
   },
   {
     title: "Planejamento",
     description:
       "Lorem ipsum dolor sit amet consectetur. Adipiscing a at enim enimaliquet diam.. Sapien diam ultricies ac semper ut faucibusultrices quis.. Arcu vel donec quisque nunc sit vitae estblandit.. Massa quam arcu ut leo nunc tellus gravida..",
+    icon: <NotebookPen className="h-6 w-6 lg:h-7 lg:w-7 text-gray-900" />,
   },
 ];
 
@@ -30,8 +34,6 @@ export const Goals = () => {
   const [width, setWidth] = useState<number>(
     typeof window !== "undefined" ? window.innerWidth : 0
   );
-
-  console.log(width);
 
   const setScreenWidth = () => {
     setWidth(window.innerWidth);
@@ -115,14 +117,14 @@ export const Goals = () => {
 
   return (
     <section className="">
-      <div className="flex justify-between items-center py-40  flex-col yl:flex-row gap-12 yl:gap-6 xl:gap-8">
-        {goals.map(({ description, title }) => (
+      <div className="flex justify-between items-center py-32 yl:py-40  flex-col yl:flex-row gap-12 yl:gap-6 xl:gap-8">
+        {goals.map(({ description, title, icon }) => (
           <div key={title} className="relative">
             {setCardSvg(width)}
             <div className="flex flex-col justify-between w-full h-full absolute top-0 left-0 dy:p-6 p-5 yl:p-5 xl:p-7">
               <div className="flex items-center gap-3">
                 {" "}
-                <Calculator className="h-6 w-6 lg:h-7 lg:w-7 text-gray-900" />{" "}
+                {icon}
                 <div className="flex items-center">
                   <p className="text-base yl:text-base dy:text-lg xl:text-lg font-semibold text-gray-800">
                     {title}

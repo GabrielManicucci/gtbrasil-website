@@ -64,13 +64,15 @@ export default {
           " 0px 3.261px 4.166px rgba(0, 0, 0, 0.10)",
         ],
       },
-      // screens: {
-      //   sm: "448",
-      //   md: "552",
-      //   dy: "755",
-      //   yl: "924",
-      //   lg: "1040px",
-      // },
+      rotate: {
+        "270": "270deg",
+      },
+      backdropBlur: {
+        ps: "1px",
+      },
+      animation: {
+        "spin-slow": "spin 8s linear infinite",
+      },
     },
     screens: {
       sm: "448px",
