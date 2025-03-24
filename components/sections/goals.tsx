@@ -116,8 +116,8 @@ export const Goals = () => {
   };
 
   return (
-    <section className="">
-      <div className="flex justify-between items-center py-32 yl:py-40  flex-col yl:flex-row gap-12 yl:gap-6 xl:gap-8">
+    <section className="w-full pt-40">
+      <div className="justify-between items-center wrapper gap-12 yl:gap-6 xl:gap-8">
         {goals.map(({ description, title, icon }) => (
           <div key={title} className="relative">
             {setCardSvg(width)}

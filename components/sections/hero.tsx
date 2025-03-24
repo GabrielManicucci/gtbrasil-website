@@ -16,8 +16,8 @@ import { PrimaryButton } from "../primary-button";
 
 export const Hero = () => {
   return (
-    <section className="w-full pt-48 md:pt-60 my-0">
-      <div className="mx-auto my-0 flex yl:flex-row flex-col  yl:justify-between  max-yl:gap-16">
+    <section className="section mt-12">
+      <div className="wrapper yl:justify-between  max-yl:gap-16">
         <div className="">
           <h1 className="font-semibold text-4xl xl:text-[2.8rem] text-silverTree-50">
             Prezamos pelo seu{" "}
