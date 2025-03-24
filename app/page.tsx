@@ -1,3 +1,4 @@
+import { Customers } from "@/components/sections/customers";
 import { Goals } from "@/components/sections/goals";
 import { Hero } from "@/components/sections/hero";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div className="max-w-[85.375rem] mx-auto">
         <Hero />
         <Goals />
+        <Customers />
       </div>
     </main>
   );
