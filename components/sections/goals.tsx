@@ -116,7 +116,7 @@ export const Goals = () => {
   };
 
   return (
-    <section className="w-full pt-40">
+    <section className="w-full pt-28 lg:pt-36">
       <div className="justify-between items-center wrapper gap-12 yl:gap-6 xl:gap-8">
         {goals.map(({ description, title, icon }) => (
           <div key={title} className="relative">
