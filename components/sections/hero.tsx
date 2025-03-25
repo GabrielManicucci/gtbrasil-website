@@ -18,7 +18,7 @@ export const Hero = () => {
                 alt="Logo GTBRASIL"
               />
               BRASIL{" "}
-            </span>
+            </span>{" "}
             - aqui prezamos pelo seu <span className="">resultado</span>
           </h1>
 
