@@ -88,4 +88,16 @@
   .wrapper {
     @apply mx-auto flex yl:flex-row flex-col;
   }
+
+  .label {
+    @apply text-base lg:text-xl font-semibold text-catarineBlue-700 mb-1 opacity-80;
+  }
+
+  .headline {
+    @apply text-4xl lg:text-5xl text-silverTree-600 font-bold;
+  }
+
+  .body {
+    @apply text-base lg:text-lg font-semibold text-silverTree-950 opacity-40;
+  }
 }

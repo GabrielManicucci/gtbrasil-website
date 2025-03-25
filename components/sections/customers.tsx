@@ -7,14 +7,10 @@ export function Customers() {
     <section className="section">
       <div className="max-w-3xl mx-auto mb-12">
         <div className="mb-5">
-          <p className="text-xl text-center font-semibold text-catarineBlue-600">
-            Customers
-          </p>
-          <h2 className="text-5xl text-center text-silverTree-600 font-semibold">
-            Clientes atendidos
-          </h2>
+          <p className="label text-center">Customers</p>
+          <h2 className="headline text-center">Clientes atendidos</h2>
         </div>
-        <p className="text-base font-medium text-center text-silverTree-950">
+        <p className="body text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis mi
           arcu accumsan cursus augue. Viverra egestas aliquet sollicitudin
           accumsan velit vel.
