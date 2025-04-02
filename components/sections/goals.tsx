@@ -13,19 +13,19 @@ const goals: goalType[] = [
   {
     title: "Serviços contábeis",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Adipiscing a at enim enimaliquet diam.. Sapien diam ultricies ac semper ut faucibusultrices quis.. Arcu vel donec quisque nunc sit vitae estblandit.. Massa quam arcu ut leo nunc tellus gravida..",
+      "Mais do que consultoria, oferecemos expertise de mercado. Combinamos gestão, tecnologia e conhecimento contábil para impulsionar resultados, otimizar processos, fortalecer a tomada de decisões e maximizar a competitividade da sua empresa.",
     icon: <Calculator className="h-6 w-6 lg:h-7 lg:w-7 text-gray-900" />,
   },
   {
     title: "Consultoria",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Adipiscing a at enim enimaliquet diam.. Sapien diam ultricies ac semper ut faucibusultrices quis.. Arcu vel donec quisque nunc sit vitae estblandit.. Massa quam arcu ut leo nunc tellus gravida..",
+      "Mais do que consultoria, oferecemos expertise de mercado. Combinamos gestão, tecnologia e conhecimento contábil para impulsionar resultados, otimizar processos, fortalecer a tomada de decisões e maximizar a competitividade da sua empresa.",
     icon: <Handshake className="h-6 w-6 lg:h-7 lg:w-7 text-gray-900" />,
   },
   {
     title: "Planejamento",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Adipiscing a at enim enimaliquet diam.. Sapien diam ultricies ac semper ut faucibusultrices quis.. Arcu vel donec quisque nunc sit vitae estblandit.. Massa quam arcu ut leo nunc tellus gravida..",
+      "Nosso planejamento tributário identifica oportunidades para sua empresa pagar menos impostos legalmente. Com expertise em software, gestão e legislação, criamos soluções personalizadas para um crescimento sólido, sustentável e altamente eficiente.",
     icon: <NotebookPen className="h-6 w-6 lg:h-7 lg:w-7 text-gray-900" />,
   },
 ];

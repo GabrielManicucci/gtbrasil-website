@@ -10,11 +10,6 @@ export function Customers() {
           <p className="label text-center">Customers</p>
           <h2 className="headline text-center">Clientes atendidos</h2>
         </div>
-        <p className="body text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis mi
-          arcu accumsan cursus augue. Viverra egestas aliquet sollicitudin
-          accumsan velit vel.
-        </p>
       </div>
       <div className="rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
         <InfiniteMovingCards

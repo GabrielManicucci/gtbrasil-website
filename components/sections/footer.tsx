@@ -17,7 +17,7 @@ export const Footer = () => {
           />
           <PrimaryButton>Fale Conosco</PrimaryButton>
         </div>
-        <div className="max-w-full h-[0.12rem] bg-shark-300 my-14"></div>
+        <div className="max-w-full h-[0.10rem] bg-shark-400 my-14"></div>
         <div className="flex justify-between flex-col yl:flex-row gap-10">
           <ul className="flex flex-col dy:items-center gap-10 dy:flex-row justify-between">
             <li className="flex gap-5 items-center flex-wrap">

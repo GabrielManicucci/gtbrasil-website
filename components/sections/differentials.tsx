@@ -15,7 +15,7 @@ const differencialsList: DifferentialsList[] = [
     ),
     title: "Há 30 anos no mercado",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Três décadas impulsionando empresas com soluções contábeis, gestão eficiente e inovação. Evoluímos para garantir segurança fiscal e crescimento sustentável.",
   },
   {
     icon: (
@@ -23,7 +23,7 @@ const differencialsList: DifferentialsList[] = [
     ),
     title: "Conhecimento e prática",
     description:
-      "Nosso compromisso com a agilidade nos permite atender às demandas dos nossos clientes de forma rápida e eficiente, sem comprometer a qualidade dos serviços prestados.",
+      "Expertise aliada à prática para oferecer soluções estratégicas, otimizando a gestão contábil e garantindo decisões assertivas para o crescimento empresarial.",
   },
   {
     icon: (
@@ -31,7 +31,7 @@ const differencialsList: DifferentialsList[] = [
     ),
     title: "Atendimento personalizado",
     description:
-      "Utilizamos tecnologia de ponta para otimizar nossos processos contábeis, garantindo maior eficiência e segurança na gestão das informações financeiras dos nossos clientes.",
+      "Suporte sob medida, alinhado às necessidades de cada cliente, garantindo soluções contábeis eficazes e uma gestão mais segura e eficiente.",
   },
 ];
 
@@ -39,14 +39,15 @@ export const Differentials = () => {
   return (
     <section className="section pb-28">
       <div className="bg-shark-950 rounded-3xl p-8 mx-auto lg:p-20 drop-shadow-lg shadow-lg">
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           <h2 className="sub-headline-dark text-center">Nossos diferenciais</h2>
-          <p className="my-10 body-dark text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-            justo, eu pharetra. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
+          <p className="mb-7 mt-5 yl:mt-8 yl:mb-9 body-dark text-center">
+            Nossos diferenciais transformaram empresas, garantindo gestão
+            eficiente e segurança fiscal. Com inovação e tecnologia, seguimos
+            otimizando processos, oferecendo suporte estratégico e impulsionando
+            negócios para um futuro sólido.
           </p>
-          <div className="flex flex-col md:flex-row gap-7 justify-center">
+          <div className="flex flex-col md:flex-row gap-5 yl:gap-7 justify-center">
             <button className="border-2 bg-transparent border-silverTree-400 font-semibold text-base md:text-lg yl:text-xl flex items-center justify-center px-8 py-4 rounded-2xl hover:cursor-pointer hover:brightness-75 transition-all max-h-16 text-silverTree-400">
               Saiba mais
             </button>

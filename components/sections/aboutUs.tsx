@@ -18,11 +18,12 @@ export const AboutUs = () => {
           <p className="label">Quem somos</p>
           <h2 className="sub-headline mt-2">Um pouco de nós</h2>
           <p className="body mb-7 mt-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
-            congue quis quisque massa diam nec in a fermentum. At commodo magna
-            ipsum at eget. Placerat sollicitudin egestas fames odio suspendisse
-            enim dignissim ultricies. Aenean purus vitae euismod ipsum netus
-            odio semper tempus.
+            Há mais de 30 anos, a GTBrasil oferece serviços contábeis,
+            consultoria e planejamento tributário para empresas de diversos
+            segmentos. Com atendimento personalizado e foco na qualidade,
+            ajudamos negócios a crescerem de forma sustentável. Nosso
+            compromisso com inovação e tecnologia nos permite continuar
+            entregando soluções eficientes para os desafios do mercado.
           </p>
           <PrimaryButton className="">Fale Conosco</PrimaryButton>
         </div>

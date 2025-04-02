@@ -15,39 +15,41 @@ export type FrequencesQuestionType = {
 
 export const frequencesQuestion: FrequencesQuestionType[] = [
   {
-    question: "Lorem Ipsum ?",
+    question: "Quais serviços contábeis a GTBrasil oferece ?",
     response:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Oferecemos consultoria empresarial especializada para prestadores de serviços, transportadoras, construtoras e indústrias, além de soluções SPED, planejamento tributário, gestão financeira e folha de pagamento, garantindo uma contabilidade eficiente e estratégica.",
     value: "item 1",
   },
   {
-    question: "Lorem Ipsum ?",
+    question:
+      "Como a contabilidade pode ajudar no crescimento da minha empresa ?",
     response:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Uma contabilidade estratégica auxilia na tomada de decisões, otimização de tributos e no cumprimento de obrigações fiscais, garantindo segurança e previsibilidade financeira.",
     value: "item 2",
   },
   {
-    question: "Lorem Ipsum ?",
+    question: "A GTBrasil atende empresas de quais segmentos ?",
     response:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Atendemos empresas de diferentes setores, como comércio, indústria e serviços, sempre com soluções personalizadas para cada necessidade.",
     value: "item 3",
   },
   {
-    question: "Lorem Ipsum ?",
+    question: "Quais tecnologias utilizam para otimizar os serviços ?",
     response:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Utilizamos softwares modernos e automação para garantir agilidade, precisão e segurança nos processos contábeis e fiscais.",
     value: "item 4",
   },
   {
-    question: "Lorem ipsum ?",
+    question: "Como posso migrar minha contabilidade para a GTBrasil ?",
     response:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Nosso time cuida de todo o processo de transição, garantindo que a mudança seja feita com segurança, sem impacto nas operações da sua empresa.",
     value: "item 5",
   },
   {
-    question: "Lorem ipsum ?",
+    question:
+      "Onde a GTBrasil está localizada e como posso entrar em contato ?",
     response:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "Estamos localizados em [inserir endereço, se aplicável]. Atendemos empresas de todo o Brasil de forma presencial e remota. Você pode entrar em contato conosco pelo telefone, e-mail ou através do nosso site para mais informações e agendamentos.",
     value: "item 6",
   },
 ];

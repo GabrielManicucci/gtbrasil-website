@@ -86,13 +86,15 @@ export const Services = () => {
   return (
     <section id="serviços" className="section pb-28">
       <div className="mb-4">
-        <p className="label">Customers</p>
-        <h2 className="headline">Clientes atendidos</h2>
+        <p className="label">Serviços</p>
+        <h2 className="headline">Conheça nosso trabalho</h2>
       </div>
       <p className="body max-w-4xl">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis mi
-        arcu accumsan cursus augue. Viverra egestas aliquet sollicitudin
-        accumsan velit vel.
+        Somos especializados em serviços contábeis estratégicos. Com mais de 30
+        anos de experiência, oferecemos consultoria, planejamento tributário e
+        gestão financeira eficiente. Nosso compromisso é garantir conformidade
+        fiscal, reduzir custos e impulsionar o crescimento do seu negócio com
+        transparência e inovação.
       </p>
       <Carousel
         opts={{

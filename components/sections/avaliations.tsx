@@ -22,7 +22,7 @@ const avaliationsList: avaliationsList[] = [
     ),
     title: "Mateus CEO",
     description:
-      "Nosso compromisso com a agilidade nos permite atender às demandas dos nossos clientes de forma rápida e eficiente, sem comprometer a qualidade dos serviços prestados.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     icon: (
@@ -30,7 +30,7 @@ const avaliationsList: avaliationsList[] = [
     ),
     title: "João CEO",
     description:
-      "Utilizamos tecnologia de ponta para otimizar nossos processos contábeis, garantindo maior eficiência e segurança na gestão das informações financeiras dos nossos clientes.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus justo, eu pharetra.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];
 
