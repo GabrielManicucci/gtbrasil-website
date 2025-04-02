@@ -14,7 +14,7 @@ export const Hero = () => {
                 src={"/logoGreen.svg"}
                 width={43}
                 height={43}
-                className="mb-2 mr-1 h-8 w-8 lg:w-11 lg:h-11 text-catarineBlue-400 inline-block"
+                className="lg:mb-2 mb-1 mr-1 h-8 w-8 lg:w-11 lg:h-11 text-catarineBlue-400 inline-block"
                 alt="Logo GTBRASIL"
               />
               BRASIL{" "}

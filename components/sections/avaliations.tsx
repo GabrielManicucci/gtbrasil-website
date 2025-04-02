@@ -37,9 +37,9 @@ const avaliationsList: avaliationsList[] = [
 export const Avaliations = () => {
   return (
     <section className="section pb-28">
-      <div className="rounded-3xl p-8 mx-auto">
+      <div className="rounded-3xl mx-auto">
         <div className="max-w-3xl mx-auto">
-          <p className="label text-center">Customers</p>
+          <p className="label text-center">Avaliações</p>
           <h2 className="headline text-center mt-1">
             O que nossos clientes dizem
           </h2>

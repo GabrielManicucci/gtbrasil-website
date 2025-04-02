@@ -40,7 +40,7 @@ export const Differentials = () => {
     <section className="section pb-28">
       <div className="bg-shark-950 rounded-3xl p-8 mx-auto lg:p-20 drop-shadow-lg shadow-lg">
         <div className="max-w-2xl mx-auto">
-          <h2 className="sub-headline text-center">Nossos diferenciais</h2>
+          <h2 className="sub-headline-dark text-center">Nossos diferenciais</h2>
           <p className="my-10 body-dark text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
             justo, eu pharetra. Lorem ipsum dolor sit amet, consectetur

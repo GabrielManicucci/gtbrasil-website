@@ -84,7 +84,7 @@ export const servicesList: ServicesListType[] = [
 
 export const Services = () => {
   return (
-    <section className="section pb-28">
+    <section id="serviços" className="section pb-28">
       <div className="mb-4">
         <p className="label">Customers</p>
         <h2 className="headline">Clientes atendidos</h2>

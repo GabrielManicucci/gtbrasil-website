@@ -101,6 +101,10 @@
     @apply text-3xl lg:text-4xl text-silverTree-600 font-bold;
   }
 
+  .sub-headline-dark {
+    @apply text-3xl lg:text-4xl text-silverTree-500 font-bold;
+  }
+
   .body {
     @apply text-base lg:text-lg font-semibold text-silverTree-950 opacity-40;
   }
