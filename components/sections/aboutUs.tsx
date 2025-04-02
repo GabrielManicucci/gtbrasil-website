@@ -14,7 +14,7 @@ export const AboutUs = () => {
             className="rounded-3xl w-full shadow-xl drop-shadow-md"
           />
         </div>
-        <div className="pt-12 yl:py-20 max-w-xl">
+        <div className="pt-12 yl:py-20 max-w-2xl">
           <p className="label">Quem somos</p>
           <h2 className="sub-headline mt-2">Um pouco de nós</h2>
           <p className="body mb-7 mt-6">
