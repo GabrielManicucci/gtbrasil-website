@@ -97,7 +97,23 @@
     @apply text-4xl lg:text-5xl text-silverTree-600 font-bold;
   }
 
+  .sub-headline {
+    @apply text-3xl lg:text-4xl text-silverTree-300 font-bold;
+  }
+
   .body {
     @apply text-base lg:text-lg font-semibold text-silverTree-950 opacity-40;
+  }
+
+  .body-dark {
+    @apply text-sm lg:text-lg font-semibold text-shark-300;
+  }
+
+  .title {
+    @apply text-xl lg:text-2xl text-shark-800 font-semibold;
+  }
+
+  .title-dark {
+    @apply text-lg lg:text-xl text-shark-50 font-semibold;
   }
 }

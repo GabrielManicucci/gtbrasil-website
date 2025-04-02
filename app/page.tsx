@@ -1,4 +1,6 @@
+import { Avaliations } from "@/components/sections/avaliations";
 import { Customers } from "@/components/sections/customers";
+import { Differentials } from "@/components/sections/differentials";
 import { Goals } from "@/components/sections/goals";
 import { Hero } from "@/components/sections/hero";
 import { Services } from "@/components/sections/services";
@@ -11,6 +13,8 @@ export default function Home() {
         <Goals />
         <Customers />
         <Services />
+        <Differentials />
+        <Avaliations />
       </div>
     </main>
   );
