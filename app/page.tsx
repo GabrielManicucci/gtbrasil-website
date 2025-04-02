@@ -2,6 +2,7 @@ import { AboutUs } from "@/components/sections/aboutUs";
 import { Avaliations } from "@/components/sections/avaliations";
 import { Customers } from "@/components/sections/customers";
 import { Differentials } from "@/components/sections/differentials";
+import Faq from "@/components/sections/faq";
 import { Footer } from "@/components/sections/footer";
 import { Goals } from "@/components/sections/goals";
 import { Hero } from "@/components/sections/hero";
@@ -20,6 +21,7 @@ export default function Home() {
         <Avaliations />
         <AboutUs />
         <Informations />
+        <Faq />
         <Footer />
       </div>
     </main>
