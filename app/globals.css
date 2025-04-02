@@ -98,7 +98,7 @@
   }
 
   .sub-headline {
-    @apply text-3xl lg:text-4xl text-silverTree-300 font-bold;
+    @apply text-3xl lg:text-4xl text-silverTree-600 font-bold;
   }
 
   .body {

@@ -1,3 +1,4 @@
+import { AboutUs } from "@/components/sections/aboutUs";
 import { Avaliations } from "@/components/sections/avaliations";
 import { Customers } from "@/components/sections/customers";
 import { Differentials } from "@/components/sections/differentials";
@@ -15,6 +16,7 @@ export default function Home() {
         <Services />
         <Differentials />
         <Avaliations />
+        <AboutUs />
       </div>
     </main>
   );
