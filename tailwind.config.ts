@@ -113,6 +113,7 @@ export default {
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",
+        "bounce-slow": "bounce 1.5s linear infinite",
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },

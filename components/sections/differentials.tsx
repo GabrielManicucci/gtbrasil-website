@@ -1,6 +1,7 @@
 import { ReactElement } from "react";
 import { PrimaryButton } from "../primary-button";
 import { BookCheck, Clock9, Headset } from "lucide-react";
+import Link from "next/link";
 
 type DifferentialsList = {
   icon: ReactElement;
@@ -48,9 +49,12 @@ export const Differentials = () => {
             negócios para um futuro sólido.
           </p>
           <div className="flex flex-col md:flex-row gap-5 yl:gap-7 justify-center">
-            <button className="border-2 bg-transparent border-silverTree-400 font-semibold text-base md:text-lg yl:text-xl flex items-center justify-center px-8 py-4 rounded-2xl hover:cursor-pointer hover:brightness-75 transition-all max-h-16 text-silverTree-400">
-              Saiba mais
-            </button>
+            <Link href={"/#informations"}>
+              <button className="border-2 bg-transparent border-silverTree-400 font-semibold text-base md:text-lg yl:text-xl flex items-center justify-center px-8 py-4 rounded-2xl hover:cursor-pointer hover:brightness-75 transition-all max-h-16 text-silverTree-400">
+                Saiba mais
+              </button>
+            </Link>
+
             <PrimaryButton>Entre em contato</PrimaryButton>
           </div>
         </div>

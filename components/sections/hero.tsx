@@ -7,19 +7,20 @@ export const Hero = () => {
       <div className="wrapper max-yl:gap-16">
         <div className="flex w-full flex-col items-center">
           <h1 className="font-semibold text-4xl lg:text-5xl text-center xl:text-[3.2rem] text-silverTree-50">
-            Bem vindo à{" "}
-            <span className="text-catarineBlue-400 inline-block">
+            Bem-vindo à{" "}
+            <span className="inline-block">
               {" "}
               <Image
-                src={"/logoGreen.svg"}
-                width={43}
-                height={43}
-                className="lg:mb-2 mb-1 mr-1 h-8 w-8 lg:w-11 lg:h-11 text-catarineBlue-400 inline-block"
+                src={"/logoMarcaHorizontal.svg"}
+                width={250}
+                height={55}
+                className="inline-block h-16 w-64 lg:h-20 lg:w-72 mr-2"
                 alt="Logo GTBRASIL"
               />
-              BRASIL{" "}
+              ,
             </span>{" "}
-            - aqui prezamos pelo seu <span className="">resultado</span>
+            ajudando empresas a prosperar com gestão contábil{" "}
+            <span className="">moderna</span> e confiável
           </h1>
 
           <p className="text-shark-200 font-medium text-lg lg:text-xl text-center max-w-5xl mt-11">

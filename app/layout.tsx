@@ -4,6 +4,7 @@ import "./globals.css";
 import { Navbar } from "@/components/sections/navbar";
 import { BgLines } from "@/components/bg-lines";
 import { BgGradient } from "@/components/bg-gradient";
+import { WppWidget } from "@/components/wppWidget";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.className}  antialiased bg-silverTree-50`}>
         <Navbar />
+        <WppWidget />
 
         <BgLines />
         <BgGradient />

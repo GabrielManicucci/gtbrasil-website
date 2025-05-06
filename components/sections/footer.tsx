@@ -61,19 +61,12 @@ export const Footer = () => {
               alt="icon"
               src={"/linkedin.svg"}
             />{" "}
-            <Image
-              className="h-9 w-9"
-              width={24}
-              height={24}
-              alt="icon"
-              src={"/facebook-f.svg"}
-            />{" "}
           </div>
         </div>
         <div className="text-sm text-shark-300 gap-6 font-semibold flex-wrap flex justify-between mt-10">
           <Link href={"http://instagram.com/gabriel_manicucci"}>
             Desenvolvido por Gabriel Manicucci
-          </Link>
+          </Link>{" "}
           <p>Todos os direitos reservados</p>
         </div>
       </div>

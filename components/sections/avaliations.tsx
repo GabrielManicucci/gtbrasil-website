@@ -36,7 +36,7 @@ const avaliationsList: avaliationsList[] = [
 
 export const Avaliations = () => {
   return (
-    <section className="section pb-28">
+    <section className="section pb-28" id="avaliations">
       <div className="rounded-3xl mx-auto">
         <div className="max-w-3xl mx-auto">
           <p className="label text-center">Avaliações</p>

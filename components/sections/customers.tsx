@@ -35,48 +35,33 @@ export function Customers() {
 
 const testimonials = [
   {
-    src: "/customers/facebook logo.svg",
-    width: 64,
-    height: 64,
+    src: "/customers/Migale.png",
+    width: 80,
+    height: 80,
   },
   {
-    src: "/customers/logo tiktok.svg",
-    width: 64,
-    height: 64,
+    src: "/customers/EcoSoft.png",
+    width: 80,
+    height: 80,
   },
   {
-    src: "/customers/meta_icon.png.png",
-    width: 64,
-    height: 64,
+    src: "/customers/Mold.png",
+    width: 80,
+    height: 80,
   },
   {
-    src: "/customers/microsoft logo.png",
-    width: 64,
-    height: 64,
+    src: "/customers/Rassio.png",
+    width: 80,
+    height: 80,
   },
   {
-    src: "/customers/nvidia logo.png",
-    width: 64,
-    height: 64,
+    src: "/customers/Flexi.png",
+    width: 80,
+    height: 80,
   },
   {
-    src: "/customers/sap_icon.jpeg.png",
-    width: 64,
-    height: 64,
-  },
-  {
-    src: "/customers/sebrae_santa_catarina_icon.jpeg.png",
-    width: 64,
-    height: 64,
-  },
-  {
-    src: "/customers/vivoIcon.png",
-    width: 64,
-    height: 64,
-  },
-  {
-    src: "/customers/x logo.png",
-    width: 64,
-    height: 64,
+    src: "/customers/Mold.png",
+    width: 80,
+    height: 80,
   },
 ];

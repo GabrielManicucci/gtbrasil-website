@@ -1,8 +1,9 @@
 import { Mail, MapPin, Phone } from "lucide-react";
+import GoogleMapEmbed from "../googleMaps";
 
 export const Informations = () => {
   return (
-    <section className="section pb-28">
+    <section className="section pb-28" id="informations">
       <div>
         <div className="max-w-3xl mx-auto mb-14 yl:text-center">
           <p className="label">Contact</p>
@@ -28,7 +29,12 @@ export const Informations = () => {
             <p className="body">info@gmail.com</p>
           </li>
         </ul>
-        <div className="max-w-full h-[36rem] bg-shark-300 rounded-3xl shadow-lg drop-shadow-md mx-auto"></div>
+        {/* <div className="max-w-full h-[36rem] bg-shark-300 rounded-3xl shadow-lg drop-shadow-md mx-auto"></div> */}
+        <GoogleMapEmbed
+          address="Rua X9, Bairro Cardoso, Aparecida de Goiânia, Goiás"
+          height={"576px"}
+          width={"100%"}
+        />
       </div>
     </section>
   );
