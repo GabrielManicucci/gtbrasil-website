@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className="section mt-5 lg:mt-20">
       <div className="wrapper max-yl:gap-16">
         <div className="flex w-full flex-col items-center">
-          <h1 className="font-semibold text-4xl lg:text-5xl text-center xl:text-[3.2rem] text-silverTree-50">
+          <h1 className="font-semibold text-3xl lg:text-5xl text-center xl:text-[3.2rem] text-silverTree-50">
             Bem-vindo à{" "}
             <span className="inline-block">
               {" "}
